@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "shortcut icon" href ="../imagenes/favicon.ico" type="image/x-icon">
+    <link rel ="icon" href="../imagenes/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---Insetar CSS-->
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header >
+        <section>
+                <h1 class="tituloPrincipal">CRÁNEO</h1>
+                <h2 class="texto2Header">Productora Teatral Argentina</h2>
+                     <!-- En lugar de llevarte abajo como vimos en el ejemplo, esta flecha te lleva al "Nosotros" -->
+                <a  href="#flecha"> <img class="flechaANosotros" src="../imagenes/flecha.png" </a>        
+        </section>
+        <section class="padreFlex">
+              <a href="index.html"> <img class="logo" src="../imagenes/logo.png"> </a>
+         <nav>
+            <ul>
+                 <li><a class="menuTexto"  href="index.html">Home</a></li> 
+                 <li><a class="menuTexto" href="En_Cartel.html">En Cartel</a></li>
+                 <li><a class="menuTexto" href="Portfolio.html">Portfolio</a></li>
+                 <li><a class="menuTexto" href="Inspiracion.html">Inspiración</a> </li>
+                 <li><a class="menuTexto" href="contacto.html">Contacto</a></li>
+            </ul>
+         </nav>         
+        </section>
+ 
+       
+
+    </header>
+
+   
+
+    <main>
+        <form id="flecha" action=" ">
+               <section class="formatoParrafos">
+                <legend class="titulosIntermedios">Quiero contactarme</legend>
+                <input type="text" name="nombre" placeholder="Nombre"><br>
+                <input type="email" name="correo"placeholder="Email"><br>
+                <textarea name="comentario" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <span>Deseo recibir Newsletter</span>
+                <input type="checkbox" name="acepta" value="1" />
+                <br>
+                <input type="submit" value="Enviar formulario"/>
+                <input type="reset" value="Limpiar formulario"/>
+               </section>   
+                
+        
+
+            <section class="formatoParrafos">
+                 <legend class="titulosIntermedios">Quiero que me tengan en cuenta para futuros proyectos</legend>
+                <h3 class="titulosMenores" >Género</h3>
+                <span>Hombre</span>
+                <input type="radio" name="sexo" value="hombre" />
+                <span>Mujer</span>
+                <input type="radio" name="sexo" value="mujer" />
+                <span>No binario</span>
+                <input type="radio" name="sexo" value="no binario" />
+                <span>Otro</span>
+                <input type="text" name="Genero" placeholder="¿Cual?"><br><br>
+                <h3 class="titulosMenores">Soy:</h3><br>
+                <input type="checkbox" name="acepta" value="1" />
+                <span>Actor/Actriz</span>
+                <input type="checkbox" name="acepta" value="1" />
+                <span>Cantante</span>
+                <input type="checkbox" name="acepta" value="1" />
+                <span>Bailarín/a</span>
+                <input type="checkbox" name="acepta" value="1" />
+                <span>Productor/a</span>
+                <br><br>
+                <select name="talles">
+                    <option value="">TALLES</option>
+                    <option value="XL">XtraLarge</option>
+                    <option value="L">Large</option>
+                    <option value="M">Medium</option>
+                    <option value="S">Small</option>
+                    <option value="XS">XtraSmall</option>
+                </select>
+                <h3 class="titulosMenores">Resumen Artístico</h3>
+                <textarea name="Formacion" cols="200" rows="70" placeholder="Resumen Artistico de X caracteres"></textarea>                
+                <br>
+                <input type="submit" value="Enviar formulario"/>
+                <input type="reset" value="Limpiar formulario"/>
+                <!-- <input type="button" value="Javascript"/> -->
+            </section>
+               
+            <br>
+
+        </form>
+    </main>
+
+
+    <footer>
+        <h3>Diseñado por Aye Del Valle</h3>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,62 @@
+/*Estilos de texto*/
+
+     .tituloPrincipal{
+        color: rgb(168, 168, 168);
+        font-size: 700%;
+        font-weight: bold;
+        text-align: center;
+        margin: 2%; 
+        animation-name: TituloCraneo;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        } 
+       
+        .titulosIntermedios{
+            color: gray;
+            font-size: 243%;
+            text-align: center;
+            margin: 2%;
+        }
+   
+    .texto2Header{
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-align: center;
+        font-size: 200%;
+        margin: 1%;
+        background-color: rgba(202, 202, 202, 0.719);
+        border-radius: solid black 1px;
+    }
+
+    .titulosMenores{
+        color: grey;
+        font-size: 100%;
+        margin-left: 3%;
+        text-align: center;
+    }
+    .titulosTeam {
+        color: white;
+        font-size: 148%;
+        margin-left: 8%;
+        margin-right: 13%;
+        background-color: rgb(216, 6, 170);
+        padding-left: 4%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .formatoParrafos {
+        width: 81%;
+        height: 67%;
+        margin: 9%;
+        border-bottom: solid 3px gray;
+        border-left: solid 3px gray;
+        padding: 12px;
+        line-height: 2;
+    } 
+    .menuTexto{
+        text-decoration: none;
+        font-size: 100%;
+        color: white;
+        padding: 6px;
+    }   
